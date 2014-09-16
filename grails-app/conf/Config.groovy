@@ -121,14 +121,42 @@ log4j.main = {
 grails.plugin.springsecurity.userLookup.userDomainClassName = 'gravitas.auth.User'
 grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'gravitas.auth.UserRole'
 grails.plugin.springsecurity.authority.className = 'gravitas.auth.Role'
-grails.plugin.springsecurity.controllerAnnotations.staticRules = [
-	'/':                              ['permitAll'],
-	'/index':                         ['permitAll'],
-	'/index.gsp':                     ['permitAll'],
-	'/assets/**':                     ['permitAll'],
-	'/**/js/**':                      ['permitAll'],
-	'/**/css/**':                     ['permitAll'],
-	'/**/images/**':                  ['permitAll'],
-	'/**/favicon.ico':                ['permitAll']
+grails.plugin.springsecurity.securityConfigType = 'InterceptUrlMap'
+grails.plugin.springsecurity.interceptUrlMap = [
+        '/':                    ['permitAll'],
+        '/index':               ['permitAll'],
+        '/index.gsp':           ['permitAll'],
+        '/assets/**':           ['permitAll'],
+        '/partials/**':         ['permitAll'],
+        '/api/**':              ['permitAll'],
+        '/**':                  ['isFullyAuthenticated()']
+]
+grails.plugin.springsecurity.filterChain.chainMap = [
+        '/api/**': 'JOINED_FILTERS,-anonymousAuthenticationFilter,-exceptionTranslationFilter,-authenticationProcessingFilter,-securityContextPersistenceFilter', // Stateless chain
+        '/data/**': 'JOINED_FILTERS,-anonymousAuthenticationFilter,-exceptionTranslationFilter,-authenticationProcessingFilter,-securityContextPersistenceFilter', // Stateless chain
+        '/**': 'JOINED_FILTERS,-restTokenValidationFilter,-restExceptionTranslationFilter,-restLogoutFilter,-restAuthenticationFilter'   // Traditional chain
 ]
 
+grails.plugin.springsecurity.rememberMe.persistent = false
+grails.plugin.springsecurity.rest.login.useJsonCredentials = true
+grails.plugin.springsecurity.rest.login.failureStatusCode = 401
+grails.plugin.springsecurity.rest.token.storage.useGorm = true
+grails.plugin.springsecurity.rest.token.storage.gorm.tokenDomainClassName = 'gravitas.auth.AuthenticationToken'
+grails.plugin.springsecurity.rest.token.storage.gorm.tokenValuePropertyName = 'token'
+grails.plugin.springsecurity.rest.token.storage.gorm.usernamePropertyName = 'username'
+grails.plugin.springsecurity.rest.token.validation.useBearerToken = false
+
+// Added by the Spring Security Core plugin:
+grails.plugin.springsecurity.userLookup.userDomainClassName = 'gravitas.auth.User'
+grails.plugin.springsecurity.userLookup.authorityJoinClassName = 'gravitas.auth.UserRole'
+grails.plugin.springsecurity.authority.className = 'gravitas.auth.Role'
+grails.plugin.springsecurity.controllerAnnotations.staticRules = [
+    '/':                              ['permitAll'],
+    '/index':                         ['permitAll'],
+    '/index.gsp':                     ['permitAll'],
+    '/assets/**':                     ['permitAll'],
+    '/**/js/**':                      ['permitAll'],
+    '/**/css/**':                     ['permitAll'],
+    '/**/images/**':                  ['permitAll'],
+    '/**/favicon.ico':                ['permitAll']
+]
