@@ -10,7 +10,5 @@
 *= require bootstrap/dist/css/bootstrap
 *= require bootstrap/dist/css/bootstrap-theme
 *= require font-awesome/css/font-awesome
-*= require main
-*= require mobile
 *= require_self
 */
