@@ -44,6 +44,8 @@ grails.project.dependency.resolution = {
         //mavenRepo "http://repository.codehaus.org"
         //mavenRepo "http://download.java.net/maven/2/"
         //mavenRepo "http://repository.jboss.com/maven2/"
+        mavenRepo 'https://oss.sonatype.org/content/repositories/snapshots'
+        mavenRepo 'http://repo.spring.io/milestone/'
     }
 
     dependencies {
@@ -62,6 +64,11 @@ grails.project.dependency.resolution = {
         compile ':cache:1.1.7'
         compile ":asset-pipeline:1.9.9"
         compile ":karma-test-runner:0.2.1"
+        compile ":spring-security-core:2.0-RC4"
+
+        compile ":spring-security-rest:1.4.0", {
+            excludes ('cors','spring-security-core')
+        }
 
         // plugins needed at runtime but not for compilation
         runtime ":hibernate4:4.3.5.5" // or ":hibernate:3.6.10.17"
