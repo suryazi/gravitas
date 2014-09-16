@@ -5,7 +5,9 @@
 // You're free to add application-wide JavaScript to this file, but it's generally better 
 // to create separate JavaScript files as needed.
 //
-//= require jquery
+//= require jquery/dist/jquery
+//= require angular/angular
+//= require bootstrap/dist/js/bootstrap
 //= require_tree .
 //= require_self
 
