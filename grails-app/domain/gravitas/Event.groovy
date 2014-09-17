@@ -1,8 +1,8 @@
 package gravitas
 
-import grails.rest.Resource
+//import grails.rest.Resource
 
-@Resource(formats=['json', 'xml'])
+//@Resource(formats=['json', 'xml'])
 class Event {
 
     String name
