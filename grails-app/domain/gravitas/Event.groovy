@@ -2,7 +2,7 @@ package gravitas
 
 import grails.rest.Resource
 
-@Resource(uri = '/data/events', formats=['json', 'xml'])
+@Resource(formats=['json', 'xml'])
 class Event {
 
     String name

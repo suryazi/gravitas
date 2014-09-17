@@ -7,6 +7,8 @@ class UrlMappings {
             }
         }
 
+        "/data/events"(resources:"event")
+
         "/"(view:"/index")
         "500"(view:'/error')
 	}
