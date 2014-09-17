@@ -1,7 +1,6 @@
 package gravitas
 
 import static org.springframework.http.HttpStatus.*
-import static org.springframework.http.HttpMethod.*
 import grails.transaction.Transactional
 
 @Transactional(readOnly = true)
