@@ -54,6 +54,13 @@
         </div>
         <div id="content" class="container">
 		    <g:layoutBody/>
+            <br/>
+            <div class="col-sm-12">
+               <footer>
+                &copy;
+                <footer:copyright startYear="2013">Cloud Computing Company.</footer:copyright>
+               </footer>
+           </div>
         </div>
 	</body>
 </html>
