@@ -1,0 +1,15 @@
+<div id="songForm">
+    <h2>Create/Edit Song</h2>
+    <form role="form">
+        <div class="form-group" ng-class="{'has-error': errors.title}">
+            <label for="songTitle">Song title</label>
+            <input id="songTitle" class="form-control" type="text" ng-model="song.title" required="true"/>
+        </div>
+        <div class="form-group" ng-class="{'has-error': errors.artist}">
+            <label for="songArtist">Song artist</label>
+            <input id="songArtist" class="form-control" type="text" ng-model="song.artist" required="true"/>
+        </div>
+        <button type="button" class="btn btn-primary" ng-click="saveSong()">Save</button>
+        <button type="button" class="btn btn-default" ng-click="cancel()">Cancel</button>
+    </form>
+</div>

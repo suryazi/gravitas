@@ -4,7 +4,8 @@ var gravitasApp = angular.module('gravitasApp', [
     'ui.bootstrap',
     'home',
     'login',
-    'events'
+    'events',
+    'songs'
 ]);
 
 gravitasApp.config(['$routeProvider',
@@ -25,6 +26,18 @@ gravitasApp.config(['$routeProvider',
             when('/myEvents/:eventId', {
                 templateUrl: 'assets/partials/event-form.html',
                 controller: 'editEventController'
+            }).
+            when('/mySongs',{
+                templateUrl: 'assets/partials/song-list.html',
+                controller: 'listSongsController'
+            }).
+            when('/mySongs/create', {
+                templateUrl: 'assets/partials/song-form.html',
+                controller: 'createSongController'
+            }).
+            when('/mySongs/:songId',{
+                templateUrl: 'assets/partials/song-form.html',
+                controller: 'editSongController'
             }).
             otherwise({
                 redirectTo: function(routeParams, currentPath) {
