@@ -1,0 +1,153 @@
+Testsuite: gravitas.EventControllerSpec
+Tests run: 7, Failures: 7, Errors: 0, Time elapsed: 6.785 sec
+------------- Standard Output ---------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+------------- ---------------- ---------------
+
+Testcase: Test the index action returns the correct model took 6.142 sec
+	FAILED
+Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+
+Testcase: Test the create action returns the correct model took 0.127 sec
+	FAILED
+Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+
+Testcase: Test the save action correctly persists an instance took 0.065 sec
+	FAILED
+Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+
+Testcase: Test that the show action returns the correct model took 0.04 sec
+	FAILED
+Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+
+Testcase: Test that the edit action returns the correct model took 0.037 sec
+	FAILED
+Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+
+Testcase: Test the update action performs an update on a valid domain instance took 0.277 sec
+	FAILED
+Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5a9d08f9
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5a9d08f9
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+
+Testcase: Test that the delete action deletes an instance if it exists took 0.03 sec
+	FAILED
+Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42155a2e
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42155a2e
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+

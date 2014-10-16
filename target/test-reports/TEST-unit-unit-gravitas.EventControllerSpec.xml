@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuite errors="0" failures="7" hostname="Dell" name="gravitas.EventControllerSpec" tests="7" time="6.785" timestamp="2014-09-18T09:01:40">
+  <properties />
+  <testcase classname="gravitas.EventControllerSpec" name="Test the index action returns the correct model" time="6.166">
+    <failure message="Condition not satisfied:&#xa;&#xa;model.eventInstanceCount == 0&#xa;|     |                  |&#xa;[:]   null               false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+</failure>
+  </testcase>
+  <testcase classname="gravitas.EventControllerSpec" name="Test the create action returns the correct model" time="0.128">
+    <failure message="Condition not satisfied:&#xa;&#xa;model.eventInstance!= null&#xa;|     |            |&#xa;[:]   null         false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+</failure>
+  </testcase>
+  <testcase classname="gravitas.EventControllerSpec" name="Test the save action correctly persists an instance" time="0.065">
+    <failure message="Condition not satisfied:&#xa;&#xa;model.eventInstance!= null&#xa;|     |            |&#xa;[:]   null         false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+</failure>
+  </testcase>
+  <testcase classname="gravitas.EventControllerSpec" name="Test that the show action returns the correct model" time="0.041">
+    <failure message="Condition not satisfied:&#xa;&#xa;model.eventInstance == event&#xa;|     |             |  |&#xa;[:]   null          |  gravitas.Event : (unsaved)&#xa;                    false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+</failure>
+  </testcase>
+  <testcase classname="gravitas.EventControllerSpec" name="Test that the edit action returns the correct model" time="0.038">
+    <failure message="Condition not satisfied:&#xa;&#xa;model.eventInstance == event&#xa;|     |             |  |&#xa;[:]   null          |  gravitas.Event : (unsaved)&#xa;                    false&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+</failure>
+  </testcase>
+  <testcase classname="gravitas.EventControllerSpec" name="Test the update action performs an update on a valid domain instance" time="0.278">
+    <failure message="Condition not satisfied:&#xa;&#xa;response.redirectedUrl == &apos;/event/index&apos;&#xa;|        |             |&#xa;|        /data/events  false&#xa;|                      11 differences (8% similarity)&#xa;|                      /(data/)event(s-----)&#xa;|                      /(-----)event(/index)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5a9d08f9&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == &apos;/event/index&apos;
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5a9d08f9
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+</failure>
+  </testcase>
+  <testcase classname="gravitas.EventControllerSpec" name="Test that the delete action deletes an instance if it exists" time="0.03">
+    <failure message="Condition not satisfied:&#xa;&#xa;response.redirectedUrl == &apos;/event/index&apos;&#xa;|        |             |&#xa;|        /data/events  false&#xa;|                      11 differences (8% similarity)&#xa;|                      /(data/)event(s-----)&#xa;|                      /(-----)event(/index)&#xa;org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42155a2e&#xa;" type="junit.framework.AssertionFailedError">junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == &apos;/event/index&apos;
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42155a2e
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+</failure>
+  </testcase>
+  <system-out><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+]]></system-out>
+  <system-err><![CDATA[--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+]]></system-err>
+</testsuite>

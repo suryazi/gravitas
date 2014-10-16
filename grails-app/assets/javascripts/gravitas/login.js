@@ -7,7 +7,7 @@ login.controller('loginController',
         $scope.logIn = function() {
             console.log('logIn called');
 
-            $http.post('api/login', { username: $scope.authData.username, password: $scope.authData.password }, getAuthenticateHttpConfig).
+            $http.post('api/login', { username: $scope.authData.username, password: $scope.authData.password }, getAuthenticateHttpConfig()).
                 success(function(data) {
                     console.log('authentication token: ' + data.access_token);
                     console.log('authentication username: ' + data.username);
@@ -16,8 +16,11 @@ login.controller('loginController',
                     setLocalToken(data.access_token);
                     authService.loginConfirmed({}, function(config) {
                         var localToken = getLocalToken();
-                        if( !config.headers["X-Auth-Token"] || (config.headers["X-Auth-Token"] != localToken) ) {
+                        var headerToken = config.headers["X-Auth-Token"];
+                        if(!headerToken || (headerToken != localToken)) {
                             console.log('X-Auth-Token not on original request or different; updating it');
+                            console.info('Local  Token: ' + localToken);
+                            console.info('Header Token: ' + headerToken);
                             config.headers["X-Auth-Token"] = getLocalToken();
                         }
                         return config;
@@ -27,6 +30,10 @@ login.controller('loginController',
                     console.log('login error: ' + data);
                     $rootScope.$broadcast('event:auth-loginFailed', data);
                 });
+
+                $scope.loginForm.$setPristine();
+                $scope.authData.username = "";
+                $scope.authData.password = "";
         }
     }
 );

@@ -1,0 +1,153 @@
+Testsuite: gravitas.SongControllerSpec
+Tests run: 7, Failures: 7, Errors: 0, Time elapsed: 0.552 sec
+------------- Standard Output ---------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+------------- ---------------- ---------------
+------------- Standard Error -----------------
+--Output from Test the index action returns the correct model--
+--Output from Test the create action returns the correct model--
+--Output from Test the save action correctly persists an instance--
+--Output from Test that the show action returns the correct model--
+--Output from Test that the edit action returns the correct model--
+--Output from Test the update action performs an update on a valid domain instance--
+--Output from Test that the delete action deletes an instance if it exists--
+------------- ---------------- ---------------
+
+Testcase: Test the index action returns the correct model took 0.277 sec
+	FAILED
+Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+	at gravitas.SongControllerSpec.Test the index action returns the correct model(SongControllerSpec.groovy:25)
+
+Testcase: Test the create action returns the correct model took 0.033 sec
+	FAILED
+Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the create action returns the correct model(SongControllerSpec.groovy:33)
+
+Testcase: Test the save action correctly persists an instance took 0.038 sec
+	FAILED
+Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the save action correctly persists an instance(SongControllerSpec.groovy:46)
+
+Testcase: Test that the show action returns the correct model took 0.038 sec
+	FAILED
+Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the show action returns the correct model(SongControllerSpec.groovy:75)
+
+Testcase: Test that the edit action returns the correct model took 0.033 sec
+	FAILED
+Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the edit action returns the correct model(SongControllerSpec.groovy:91)
+
+Testcase: Test the update action performs an update on a valid domain instance took 0.065 sec
+	FAILED
+Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@23f9daa7
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@23f9daa7
+
+	at gravitas.SongControllerSpec.Test the update action performs an update on a valid domain instance(SongControllerSpec.groovy:101)
+
+Testcase: Test that the delete action deletes an instance if it exists took 0.043 sec
+	FAILED
+Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@21f9ac50
+
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@21f9ac50
+
+	at gravitas.SongControllerSpec.Test that the delete action deletes an instance if it exists(SongControllerSpec.groovy:133)
+

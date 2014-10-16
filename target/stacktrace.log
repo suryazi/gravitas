@@ -120,3 +120,1587 @@ java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on nu
 java.lang.NullPointerException: Cannot get property 'cacheOperationSource' on null object
 	at CacheGrailsPlugin$_closure4.doCall(CacheGrailsPlugin.groovy:184)
 	at java.lang.Thread.run(Thread.java:744)
+2014-09-18 11:57:36,201 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+2014-09-18 11:57:36,212 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+2014-09-18 11:57:36,214 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+2014-09-18 11:57:36,215 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+2014-09-18 11:57:36,237 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+2014-09-18 11:57:36,237 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+2014-09-18 11:57:36,459 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+2014-09-18 11:57:36,460 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+2014-09-18 11:57:36,460 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+2014-09-18 11:57:36,460 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+2014-09-18 11:57:36,461 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+2014-09-18 11:57:36,461 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+2014-09-18 11:57:36,578 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+2014-09-18 11:57:36,579 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+2014-09-18 11:57:36,579 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+2014-09-18 11:57:36,579 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+2014-09-18 11:57:36,579 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+2014-09-18 11:57:36,580 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+2014-09-18 11:57:36,642 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+2014-09-18 11:57:36,642 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+2014-09-18 11:57:36,642 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+2014-09-18 11:57:36,642 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+2014-09-18 11:57:36,643 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+2014-09-18 11:57:36,643 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+2014-09-18 11:57:36,697 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+2014-09-18 11:57:36,697 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+2014-09-18 11:57:36,697 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+2014-09-18 11:57:36,697 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+2014-09-18 11:57:36,698 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+2014-09-18 11:57:36,698 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+2014-09-18 11:57:37,043 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@66700192
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+2014-09-18 11:57:37,052 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@66700192
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+2014-09-18 11:57:37,052 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@66700192
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+2014-09-18 11:57:37,052 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@66700192
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+2014-09-18 11:57:37,053 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@66700192
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+2014-09-18 11:57:37,053 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@66700192
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+2014-09-18 11:57:37,096 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7e7d23b2
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+2014-09-18 11:57:37,097 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7e7d23b2
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+2014-09-18 11:57:37,097 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7e7d23b2
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+2014-09-18 11:57:37,097 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7e7d23b2
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+2014-09-18 11:57:37,097 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7e7d23b2
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+2014-09-18 11:57:37,097 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7e7d23b2
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+2014-09-18 11:57:37,553 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+	at gravitas.SongControllerSpec.Test the index action returns the correct model(SongControllerSpec.groovy:25)
+2014-09-18 11:57:37,553 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+	at gravitas.SongControllerSpec.Test the index action returns the correct model(SongControllerSpec.groovy:25)
+2014-09-18 11:57:37,554 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+	at gravitas.SongControllerSpec.Test the index action returns the correct model(SongControllerSpec.groovy:25)
+2014-09-18 11:57:37,554 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+	at gravitas.SongControllerSpec.Test the index action returns the correct model(SongControllerSpec.groovy:25)
+2014-09-18 11:57:37,555 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+	at gravitas.SongControllerSpec.Test the index action returns the correct model(SongControllerSpec.groovy:25)
+2014-09-18 11:57:37,555 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+	at gravitas.SongControllerSpec.Test the index action returns the correct model(SongControllerSpec.groovy:25)
+2014-09-18 11:57:37,611 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the create action returns the correct model(SongControllerSpec.groovy:33)
+2014-09-18 11:57:37,612 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the create action returns the correct model(SongControllerSpec.groovy:33)
+2014-09-18 11:57:37,614 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the create action returns the correct model(SongControllerSpec.groovy:33)
+2014-09-18 11:57:37,614 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the create action returns the correct model(SongControllerSpec.groovy:33)
+2014-09-18 11:57:37,614 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the create action returns the correct model(SongControllerSpec.groovy:33)
+2014-09-18 11:57:37,614 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the create action returns the correct model(SongControllerSpec.groovy:33)
+2014-09-18 11:57:37,680 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the save action correctly persists an instance(SongControllerSpec.groovy:46)
+2014-09-18 11:57:37,681 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the save action correctly persists an instance(SongControllerSpec.groovy:46)
+2014-09-18 11:57:37,683 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the save action correctly persists an instance(SongControllerSpec.groovy:46)
+2014-09-18 11:57:37,683 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the save action correctly persists an instance(SongControllerSpec.groovy:46)
+2014-09-18 11:57:37,683 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the save action correctly persists an instance(SongControllerSpec.groovy:46)
+2014-09-18 11:57:37,683 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the save action correctly persists an instance(SongControllerSpec.groovy:46)
+2014-09-18 11:57:37,737 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the show action returns the correct model(SongControllerSpec.groovy:75)
+2014-09-18 11:57:37,737 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the show action returns the correct model(SongControllerSpec.groovy:75)
+2014-09-18 11:57:37,738 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the show action returns the correct model(SongControllerSpec.groovy:75)
+2014-09-18 11:57:37,738 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the show action returns the correct model(SongControllerSpec.groovy:75)
+2014-09-18 11:57:37,738 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the show action returns the correct model(SongControllerSpec.groovy:75)
+2014-09-18 11:57:37,738 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the show action returns the correct model(SongControllerSpec.groovy:75)
+2014-09-18 11:57:37,788 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the edit action returns the correct model(SongControllerSpec.groovy:91)
+2014-09-18 11:57:37,789 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the edit action returns the correct model(SongControllerSpec.groovy:91)
+2014-09-18 11:57:37,789 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the edit action returns the correct model(SongControllerSpec.groovy:91)
+2014-09-18 11:57:37,789 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the edit action returns the correct model(SongControllerSpec.groovy:91)
+2014-09-18 11:57:37,790 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the edit action returns the correct model(SongControllerSpec.groovy:91)
+2014-09-18 11:57:37,790 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the edit action returns the correct model(SongControllerSpec.groovy:91)
+2014-09-18 11:57:37,882 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7c209d8e
+
+	at gravitas.SongControllerSpec.Test the update action performs an update on a valid domain instance(SongControllerSpec.groovy:101)
+2014-09-18 11:57:37,883 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7c209d8e
+
+	at gravitas.SongControllerSpec.Test the update action performs an update on a valid domain instance(SongControllerSpec.groovy:101)
+2014-09-18 11:57:37,883 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7c209d8e
+
+	at gravitas.SongControllerSpec.Test the update action performs an update on a valid domain instance(SongControllerSpec.groovy:101)
+2014-09-18 11:57:37,883 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7c209d8e
+
+	at gravitas.SongControllerSpec.Test the update action performs an update on a valid domain instance(SongControllerSpec.groovy:101)
+2014-09-18 11:57:37,884 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7c209d8e
+
+	at gravitas.SongControllerSpec.Test the update action performs an update on a valid domain instance(SongControllerSpec.groovy:101)
+2014-09-18 11:57:37,884 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@7c209d8e
+
+	at gravitas.SongControllerSpec.Test the update action performs an update on a valid domain instance(SongControllerSpec.groovy:101)
+2014-09-18 11:57:37,925 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1b02d0a5
+
+	at gravitas.SongControllerSpec.Test that the delete action deletes an instance if it exists(SongControllerSpec.groovy:133)
+2014-09-18 11:57:37,926 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1b02d0a5
+
+	at gravitas.SongControllerSpec.Test that the delete action deletes an instance if it exists(SongControllerSpec.groovy:133)
+2014-09-18 11:57:37,926 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1b02d0a5
+
+	at gravitas.SongControllerSpec.Test that the delete action deletes an instance if it exists(SongControllerSpec.groovy:133)
+2014-09-18 11:57:37,926 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1b02d0a5
+
+	at gravitas.SongControllerSpec.Test that the delete action deletes an instance if it exists(SongControllerSpec.groovy:133)
+2014-09-18 11:57:37,926 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1b02d0a5
+
+	at gravitas.SongControllerSpec.Test that the delete action deletes an instance if it exists(SongControllerSpec.groovy:133)
+2014-09-18 11:57:37,926 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@1b02d0a5
+
+	at gravitas.SongControllerSpec.Test that the delete action deletes an instance if it exists(SongControllerSpec.groovy:133)
+2014-09-18 12:01:46,712 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+2014-09-18 12:01:46,715 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+2014-09-18 12:01:46,716 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+2014-09-18 12:01:46,717 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+2014-09-18 12:01:46,725 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+2014-09-18 12:01:46,725 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstanceCount == 0
+|     |                  |
+[:]   null               false
+
+	at gravitas.EventControllerSpec.Test the index action returns the correct model(EventControllerSpec.groovy:25)
+2014-09-18 12:01:46,875 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+2014-09-18 12:01:46,875 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+2014-09-18 12:01:46,875 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+2014-09-18 12:01:46,875 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+2014-09-18 12:01:46,876 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+2014-09-18 12:01:46,876 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the create action returns the correct model(EventControllerSpec.groovy:33)
+2014-09-18 12:01:46,941 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+2014-09-18 12:01:46,941 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+2014-09-18 12:01:46,941 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+2014-09-18 12:01:46,941 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+2014-09-18 12:01:46,942 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+2014-09-18 12:01:46,942 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance!= null
+|     |            |
+[:]   null         false
+
+	at gravitas.EventControllerSpec.Test the save action correctly persists an instance(EventControllerSpec.groovy:46)
+2014-09-18 12:01:46,981 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+2014-09-18 12:01:46,981 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+2014-09-18 12:01:46,982 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+2014-09-18 12:01:46,982 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+2014-09-18 12:01:46,983 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+2014-09-18 12:01:46,983 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the show action returns the correct model(EventControllerSpec.groovy:75)
+2014-09-18 12:01:47,020 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+2014-09-18 12:01:47,020 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+2014-09-18 12:01:47,021 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+2014-09-18 12:01:47,021 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+2014-09-18 12:01:47,021 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+2014-09-18 12:01:47,021 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.eventInstance == event
+|     |             |  |
+[:]   null          |  gravitas.Event : (unsaved)
+                    false
+
+	at gravitas.EventControllerSpec.Test that the edit action returns the correct model(EventControllerSpec.groovy:91)
+2014-09-18 12:01:47,296 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5a9d08f9
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+2014-09-18 12:01:47,298 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5a9d08f9
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+2014-09-18 12:01:47,298 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5a9d08f9
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+2014-09-18 12:01:47,298 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5a9d08f9
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+2014-09-18 12:01:47,299 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5a9d08f9
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+2014-09-18 12:01:47,299 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@5a9d08f9
+
+	at gravitas.EventControllerSpec.Test the update action performs an update on a valid domain instance(EventControllerSpec.groovy:101)
+2014-09-18 12:01:47,328 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42155a2e
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+2014-09-18 12:01:47,329 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42155a2e
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+2014-09-18 12:01:47,329 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42155a2e
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+2014-09-18 12:01:47,329 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42155a2e
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+2014-09-18 12:01:47,330 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42155a2e
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+2014-09-18 12:01:47,330 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/event/index'
+|        |             |
+|        /data/events  false
+|                      11 differences (8% similarity)
+|                      /(data/)event(s-----)
+|                      /(-----)event(/index)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@42155a2e
+
+	at gravitas.EventControllerSpec.Test that the delete action deletes an instance if it exists(EventControllerSpec.groovy:133)
+2014-09-18 12:01:47,654 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+	at gravitas.SongControllerSpec.Test the index action returns the correct model(SongControllerSpec.groovy:25)
+2014-09-18 12:01:47,654 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+	at gravitas.SongControllerSpec.Test the index action returns the correct model(SongControllerSpec.groovy:25)
+2014-09-18 12:01:47,655 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+	at gravitas.SongControllerSpec.Test the index action returns the correct model(SongControllerSpec.groovy:25)
+2014-09-18 12:01:47,655 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+	at gravitas.SongControllerSpec.Test the index action returns the correct model(SongControllerSpec.groovy:25)
+2014-09-18 12:01:47,656 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+	at gravitas.SongControllerSpec.Test the index action returns the correct model(SongControllerSpec.groovy:25)
+2014-09-18 12:01:47,656 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstanceCount == 0
+|     |                 |
+[:]   null              false
+
+	at gravitas.SongControllerSpec.Test the index action returns the correct model(SongControllerSpec.groovy:25)
+2014-09-18 12:01:47,690 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the create action returns the correct model(SongControllerSpec.groovy:33)
+2014-09-18 12:01:47,691 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the create action returns the correct model(SongControllerSpec.groovy:33)
+2014-09-18 12:01:47,691 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the create action returns the correct model(SongControllerSpec.groovy:33)
+2014-09-18 12:01:47,691 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the create action returns the correct model(SongControllerSpec.groovy:33)
+2014-09-18 12:01:47,692 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the create action returns the correct model(SongControllerSpec.groovy:33)
+2014-09-18 12:01:47,692 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the create action returns the correct model(SongControllerSpec.groovy:33)
+2014-09-18 12:01:47,730 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the save action correctly persists an instance(SongControllerSpec.groovy:46)
+2014-09-18 12:01:47,730 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the save action correctly persists an instance(SongControllerSpec.groovy:46)
+2014-09-18 12:01:47,730 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the save action correctly persists an instance(SongControllerSpec.groovy:46)
+2014-09-18 12:01:47,731 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the save action correctly persists an instance(SongControllerSpec.groovy:46)
+2014-09-18 12:01:47,731 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the save action correctly persists an instance(SongControllerSpec.groovy:46)
+2014-09-18 12:01:47,731 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance!= null
+|     |           |
+[:]   null        false
+
+	at gravitas.SongControllerSpec.Test the save action correctly persists an instance(SongControllerSpec.groovy:46)
+2014-09-18 12:01:47,768 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the show action returns the correct model(SongControllerSpec.groovy:75)
+2014-09-18 12:01:47,769 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the show action returns the correct model(SongControllerSpec.groovy:75)
+2014-09-18 12:01:47,769 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the show action returns the correct model(SongControllerSpec.groovy:75)
+2014-09-18 12:01:47,769 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the show action returns the correct model(SongControllerSpec.groovy:75)
+2014-09-18 12:01:47,770 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the show action returns the correct model(SongControllerSpec.groovy:75)
+2014-09-18 12:01:47,770 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the show action returns the correct model(SongControllerSpec.groovy:75)
+2014-09-18 12:01:47,802 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the edit action returns the correct model(SongControllerSpec.groovy:91)
+2014-09-18 12:01:47,803 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the edit action returns the correct model(SongControllerSpec.groovy:91)
+2014-09-18 12:01:47,803 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the edit action returns the correct model(SongControllerSpec.groovy:91)
+2014-09-18 12:01:47,803 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the edit action returns the correct model(SongControllerSpec.groovy:91)
+2014-09-18 12:01:47,804 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the edit action returns the correct model(SongControllerSpec.groovy:91)
+2014-09-18 12:01:47,804 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+model.songInstance == song
+|     |            |  |
+[:]   null         |  gravitas.Song : (unsaved)
+                   false
+
+	at gravitas.SongControllerSpec.Test that the edit action returns the correct model(SongControllerSpec.groovy:91)
+2014-09-18 12:01:47,867 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@23f9daa7
+
+	at gravitas.SongControllerSpec.Test the update action performs an update on a valid domain instance(SongControllerSpec.groovy:101)
+2014-09-18 12:01:47,868 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@23f9daa7
+
+	at gravitas.SongControllerSpec.Test the update action performs an update on a valid domain instance(SongControllerSpec.groovy:101)
+2014-09-18 12:01:47,869 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@23f9daa7
+
+	at gravitas.SongControllerSpec.Test the update action performs an update on a valid domain instance(SongControllerSpec.groovy:101)
+2014-09-18 12:01:47,869 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@23f9daa7
+
+	at gravitas.SongControllerSpec.Test the update action performs an update on a valid domain instance(SongControllerSpec.groovy:101)
+2014-09-18 12:01:47,870 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@23f9daa7
+
+	at gravitas.SongControllerSpec.Test the update action performs an update on a valid domain instance(SongControllerSpec.groovy:101)
+2014-09-18 12:01:47,870 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@23f9daa7
+
+	at gravitas.SongControllerSpec.Test the update action performs an update on a valid domain instance(SongControllerSpec.groovy:101)
+2014-09-18 12:01:47,911 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@21f9ac50
+
+	at gravitas.SongControllerSpec.Test that the delete action deletes an instance if it exists(SongControllerSpec.groovy:133)
+2014-09-18 12:01:47,913 [main] ERROR StackTrace  - Full Stack Trace:
+Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@21f9ac50
+
+	at gravitas.SongControllerSpec.Test that the delete action deletes an instance if it exists(SongControllerSpec.groovy:133)
+2014-09-18 12:01:47,914 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@21f9ac50
+
+	at gravitas.SongControllerSpec.Test that the delete action deletes an instance if it exists(SongControllerSpec.groovy:133)
+2014-09-18 12:01:47,914 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@21f9ac50
+
+	at gravitas.SongControllerSpec.Test that the delete action deletes an instance if it exists(SongControllerSpec.groovy:133)
+2014-09-18 12:01:47,915 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@21f9ac50
+
+	at gravitas.SongControllerSpec.Test that the delete action deletes an instance if it exists(SongControllerSpec.groovy:133)
+2014-09-18 12:01:47,915 [main] ERROR StackTrace  - Full Stack Trace:
+junit.framework.AssertionFailedError: Condition not satisfied:
+
+response.redirectedUrl == '/song/index'
+|        |             |
+|        /data/songs   false
+|                      9 differences (18% similarity)
+|                      /(data)/(so)n(gs-)
+|                      /(song)/(i-)n(dex)
+org.codehaus.groovy.grails.plugins.testing.GrailsMockHttpServletResponse@21f9ac50
+
+	at gravitas.SongControllerSpec.Test that the delete action deletes an instance if it exists(SongControllerSpec.groovy:133)
